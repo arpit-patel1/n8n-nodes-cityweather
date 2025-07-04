@@ -1,19 +1,19 @@
 {
-  "name": "n8n-nodes-<...>",
+  "name": "n8n-nodes-demo-weather9",
   "version": "0.1.0",
-  "description": "",
+  "description": "n8n node for weather data using OpenWeatherMap API",
   "keywords": [
     "n8n-community-node-package"
   ],
   "license": "MIT",
-  "homepage": "",
+  "homepage": "https://github.com/arpit-patel1/n8n-nodes-cityweather",
   "author": {
-    "name": "",
-    "email": ""
+    "name": "Anonymous Seeker",
+    "email": "anonymous.seeker@example.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/<...>/n8n-nodes-<...>.git"
+    "url": "https://github.com/arpit-patel1/n8n-nodes-cityweather.git"
   },
   "engines": {
     "node": ">=20.15"
@@ -33,12 +33,10 @@
   "n8n": {
     "n8nNodesApiVersion": 1,
     "credentials": [
-      "dist/credentials/ExampleCredentialsApi.credentials.js",
-      "dist/credentials/HttpBinApi.credentials.js"
+      "dist/credentials/DemoWeather9Api.credentials.js"
     ],
     "nodes": [
-      "dist/nodes/ExampleNode/ExampleNode.node.js",
-      "dist/nodes/HttpBin/HttpBin.node.js"
+      "dist/nodes/DemoWeather9/DemoWeather9.node.js"
     ]
   },
   "devDependencies": {
